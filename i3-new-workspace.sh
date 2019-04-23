@@ -3,7 +3,7 @@
 # Get numbers of workspaces in use:
 WORKSPACES=$( i3-msg -t get_workspaces | tr , '\n' | grep '"num":' | sed s/^.*'"num":'// )
 
-# Set $NEW to the number of first unused workspace:
+# Set $NEW to number of the first unused workspace:
 NEW=1
 while [[ $( echo "$WORKSPACES" | grep "$NEW" ) ]]
 do
