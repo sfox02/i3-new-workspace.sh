@@ -1,6 +1,6 @@
 # i3-new-workspace
 
-This script checks for existing workspaces in i3 and creates a new one with the lowest number possible. Optionally it can move the focused container to the newly created workspace.
+This script checks for existing workspaces and creates a new one with the lowest number possible. Optionally it can move the focused container to the newly created workspace.
 
 You probably want to add a key binding to run this script.
 
