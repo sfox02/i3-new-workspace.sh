@@ -4,6 +4,6 @@ This script checks for existing workspaces and creates a new one with the lowest
 
 You probably want to add a key binding to run this script.
 
-## Usage:
+## Usage
 * create a new workspace: `./i3-new-workspace.sh`
 * create a new workspace and move the focused container: `./i3-new-workspace.sh move`
