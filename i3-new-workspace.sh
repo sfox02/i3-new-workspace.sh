@@ -10,9 +10,11 @@ do
 	NEW=$(( $NEW + 1 ))
 done
 
-# Move container to a new workspace and switch to that workspace OR just switch to a new workspace:
+# Move container to a new workspace:
 if [[ $1 == "move" ]]
 then
 	i3-msg move container to workspace number $NEW
 fi
+
+# Switch to the new workspace:
 i3-msg workspace number $NEW
